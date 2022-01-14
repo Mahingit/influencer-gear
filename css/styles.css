@@ -58,7 +58,7 @@ h1{
 }
 
 /*------------------------ 
-Popular Collection Style
+Popular Collection Styles
 ------------------------- */
 #popular-headline{
     text-align: center;
@@ -73,18 +73,27 @@ Popular Collection Style
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
+    border-radius: 5px;
     margin-bottom: 65px;
     box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 5px rgba(0, 0, 0, 0.19);
 }
 
-  .fa-star, .fa-star-half-alt{
+.thumbnail img{
+    border-radius: 5px;
+}
+
+.fa-star, .fa-star-half-alt{
       font-size: 12px;
       color: #FFC014;
   }
 
-  #see-more{
+#see-more{
       text-align: end;
       color: #E02C6D;
       font-weight: 800;
   }
+
+  /*------------------------
+   Photography Course Styles
+  ------------------------- */
 
