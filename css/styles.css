@@ -60,6 +60,10 @@ h1{
 /*------------------------ 
 Popular Collection Style
 ------------------------- */
+#popular-headline{
+    text-align: center;
+    margin-bottom: 30px;
+}
 .popular-items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -72,3 +76,10 @@ Popular Collection Style
     margin-bottom: 65px;
     box-shadow: 5px 4px 8px 0 rgba(0, 0, 0, 0.2), 5px 6px 20px 5px rgba(0, 0, 0, 0.19);
 }
+
+  .fa-star, .fa-star-half-alt{
+      font-size: 12px;
+      color: #FFC014;
+  }
+
+
