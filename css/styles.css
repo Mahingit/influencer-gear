@@ -11,6 +11,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
 }
 main{
     display: flex;
@@ -30,6 +31,7 @@ h1{
 
 #nav{
     margin-top: 50px;
+    color: #3A3A3A;
 }
 
 /*-------------------------
@@ -46,6 +48,7 @@ h1{
 
 .article-name, .article-text{
     margin-bottom: 16px;
+    color: #3A3A3A;
 }
 
 .influencer-image img{
@@ -70,6 +73,7 @@ Popular Collection Styles
 ------------------------- */
 #popular-headline{
     text-align: center;
+    color: #3A3A3A;
     margin-bottom: 30px;
 }
 .popular-items{
@@ -155,7 +159,7 @@ footer{
 /*------------------
  Media Queries 
  ------------------*/
-/* Mobile Devices */
+/* For Mobile Devices */
 @media only screen and (max-width: 688px) {
     .container{
         width: 100%;
@@ -198,4 +202,17 @@ footer{
 
 }
 
-/* Tablet Devices */
+/* For Tablet Devices */
+@media only screen and (min-width: 689px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .popular-items{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+    .photography-image img{
+        max-width: 300px;
+        max-height: 180px;
+    }
+}
