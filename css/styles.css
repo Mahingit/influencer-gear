@@ -159,4 +159,11 @@ footer{
     .influencer-entry, .popular-items, .photography-courses{
         grid-template-columns: repeat(1, 1fr);
     }
+    .popular-item{
+        padding-left: 5px;
+    }
+    .influencer-entry{
+        margin-bottom: 100px;
+    
+    }
 }
