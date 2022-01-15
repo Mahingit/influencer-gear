@@ -123,3 +123,22 @@ Popular Collection Styles
     margin-bottom: 100px;
 }
 
+/* Footer Styles */
+footer{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    color: white;
+    background-color: #0A0826;
+    height: 239px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.fa-instagram, .fa-globe, .fa-twitter, .fa-youtube{
+    background-color: rgb(43, 35, 94);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 10px;
+}
+
