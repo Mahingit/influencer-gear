@@ -40,7 +40,7 @@ h1{
 
 }
 
-#article-name, #article-text{
+.article-name, .article-text{
     margin-bottom: 16px;
 }
 
@@ -127,11 +127,12 @@ Popular Collection Styles
     margin-bottom: 100px;
 }
 
-/* Footer Styles */
+/*-----------------
+ Footer Styles 
+-----------------*/
 footer{
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     color: white;
     background-color: #0A0826;
     height: 239px;
@@ -147,3 +148,15 @@ footer{
     color: white;
 }
 
+/*------------------
+ Media Queries 
+ ------------------*/
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .influencer-entry, .popular-items, .photography-courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
