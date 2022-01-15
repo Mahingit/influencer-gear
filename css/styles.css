@@ -56,6 +56,10 @@ h1{
     border-radius: 41px;
     border: none;
 }
+.influencer-image:hover{
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+}
 
 /*------------------------ 
 Popular Collection Styles
