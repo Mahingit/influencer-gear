@@ -109,7 +109,7 @@ Popular Collection Styles
 
 }
 
-#course-name, #course-detail{
+.course-name, .course-detail{
     margin-bottom: 16px;
 }
 .photography-image img{
