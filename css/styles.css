@@ -132,7 +132,7 @@ footer{
     background-color: #0A0826;
     height: 239px;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center; 
 }
 
 .fa-instagram, .fa-globe, .fa-twitter, .fa-youtube{
